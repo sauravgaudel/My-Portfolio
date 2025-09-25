@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav Gaudel- Developer and Learner</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo">Saurav Gaudel</a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm Saurav</h1>
+            <p class="hero-subtitle"><span class="typing-subtitle">Programmer</span></p>
+            <p class="hero-description">I'm a learner, developer, and explorer—constantly building, breaking, and discovering.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                <a href="#" class="btn btn-secondary" id="downloadResume">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 class="Hi">Hi, I'm  <span class="typing"></span></h3>
+                    <p>I'm a Computer Engineering student at IOE Pulchowk Campus, Lalitpur Nepal. I enjoy working on web development and have 
+                       growing interests in AI/ML, data science, and cybersecurity. I'm still exploring these fields and learning as I go, 
+                       building projects along the way and figuring out where I fit best in the tech world.
+                        <br>
+                        <br>
+                       <p>Outside of academics and tech, I enjoy playing cricket, listening to music, and singing—things that help me unwind and 
+                        stay balanced.</p>
+                    
+                </div>
+                <!-- <div class="about-image"> -->
+                    <!-- Replace the src with your actual photo -->
+                    <img src="saurab.jpg" alt="Saurav" class="profile-photo">
+                    
+                    <!-- <div class="photo-placeholder">
+                       <!-- <img src="saurab.jpg" alt=""> -->
+                       
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill">Frontend Development</h3>
+                    <p>HTML5 <br> CSS3 <br>JavaScript(ES6+) <br> React</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3 class="skill">Programming Language</h3>
+                    <p>Python <br>Programming in C <br>Programming in C++ <br> Programming in Java <br>Javascript(ES6+)</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill">Tools</h3>
+                    <p>Git and Github <br>VS Code <br> Canva </p>
+                </div>
+                <!-- <div class="skill-card">
+                    <div class="skill-icon"></div>
+                    <h3>Others</h3>
+                    <p>Singing, Playing Cricket</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Currency Converter Website  </div>
+                    
+                    <div class="portfolio-content">
+                       
+                        <h3>Currency Converter</h3>
+                        <p>A full-featured Currency Converter platform where we can convert currency from one country to another.</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Javascript</span>
+                        </div>
+                        <br>
+                        <br>
+                         <span class="git-tag"><a href="https://github.com/sauravgaudel/Currency-Converter-Using-JS" target="_blank">Github-Repo</a></span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Weather-App</div>
+                    <div class="portfolio-content">
+                        <h3>Weather App</h3>
+                        <p>This is the platform where we can see temperature, humidity, wind speed of any city in the world by simply searching the city name</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Javascriipt</span>
+                        </div>
+                        <br>
+                         <span class="git-tag"><a href="https://github.com/sauravgaudel/Weather-APP" target="_blank">Github-Repo</a></span>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">Snake Game</div>
+                    <div class="portfolio-content">
+                        <h3>Snake Game</h3>
+                        <p>This is simply a single player snake game </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Java</span>
+                            <!-- <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span> -->
+                        </div>
+                        <br><br><br><br> <span class="git-tag"><a href="">Github-Repo</a></span>
+                    </div>
+                </div>
+
+            
+            <div class="portfolio-item">
+                    <div class="portfolio-image">C-Pay</div>
+                    <div class="portfolio-content">
+                        <h3>C-Pay</h3>
+                        <p>This is the online payment platform just like E-Pay which is made by using C programming so name as C- Pay</p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">C-Programming</span>
+                            <!-- <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span> -->
+                        </div>
+                        <br> <span class="git-tag"><a href="https://github.com/sauravgaudel/C-Project" target="_blank">Github-Repo</a></span>
+                    </div>
+                </div>
+                
+            
+            <div class="portfolio-item">
+                    <div class="portfolio-image">Sudoku Game</div>
+                    <div class="portfolio-content">
+                        <h3>Sudoku Game</h3>
+                        <p>This is a single player Sudoku game made by using C++ </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">C++</span>
+                            <!-- <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span> -->
+                        </div>
+                        <br><br> <span class="git-tag"><a href="https://github.com/sauravgaudel/Sudoku_Game_CPP" target="_blank">Github-Repo</a></span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can bring your ideas to life!</p>
+                    <div class="contact-item">
+                        <i>📧</i>
+                        <span>sauravgaudel064@gmail.com</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <a href="https://www.facebook.com/saurav.gaudel.54" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                             </a>
+                    
+                    
+                        <a href="https://instagram.com/sauravgaudel41" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                             </a>
+                    
+
+                    
+                       <a href="https://www.linkedin.com/in/sauravgaudel41" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                         </a>
+                    
+                   
+                        <a href="https://github.com/sauravgaudel" target="_blank">
+                        <i class="fab fa-github"></i>
+                             </a>
+                    </div>
+                    
+
+                </div>
+                <form class="contact-form" action="https://formsubmit.co/sauravgaudel064@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                     <div id="messageSent" style="display: none; color: green; margin-top: 1em; text-align: center;">
+              ✅ Your message has been sent. We'll contact you shortly!
+            </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p> Built by Saurav Gaudel <br>&copy; 2025. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
