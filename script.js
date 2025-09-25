@@ -110,22 +110,22 @@
         });
 
         // Form submission
-        document.querySelector('.contact-form').addEventListener('submit', (e) => {
-            e.preventDefault();
+        // document.querySelector('.contact-form').addEventListener('submit', (e) => {
+        //     e.preventDefault();
             
-            const formData = new FormData(e.target);
-            const name = formData.get('name');
-            const email = formData.get('email');
-            const message = formData.get('message');
+        //     const formData = new FormData(e.target);
+        //     const name = formData.get('name');
+        //     const email = formData.get('email');
+        //     const message = formData.get('message');
             
-            if (!name || !email || !message) {
-                alert('Please fill in all fields');
-                return;
-            }
+        //     if (!name || !email || !message) {
+        //         alert('Please fill in all fields');
+        //         return;
+        //     }
             
-            alert('Thank you for your message! I\'ll get back to you soon.');
-            e.target.reset();
-        });
+        //     alert('Thank you for your message! I\'ll get back to you soon.');
+        //     e.target.reset();
+        // });
 
         // Skill cards animation
         document.querySelectorAll('.skill-card').forEach((card, index) => {
